@@ -6,12 +6,12 @@
                         //  create a global of the class.
 
 // Constructors
-AutoDriver::AutoDriver(int CSPin, int resetPin, int busyPin, int device){
+AutoDriver::AutoDriver(int CSPin, int resetPin, int busyPin, byte device){
     _CSPin = CSPin;
   _resetPin = resetPin;
   _busyPin = busyPin;
   
-  SPIConfig(int device);
+  SPIConfig(byte device);
 }
 
 AutoDriver::AutoDriver(int CSPin, int resetPin, int busyPin)
