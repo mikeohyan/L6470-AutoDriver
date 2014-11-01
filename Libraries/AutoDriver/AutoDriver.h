@@ -203,4 +203,13 @@ class AutoDriver
 #define EXT_16MHZ_OSCOUT_INVERT 0x000D // External 16MHz crystal, output inverted
 #define EXT_24MHZ_OSCOUT_INVERT 0x000E // External 24MHz crystal, output inverted
 #define EXT_32MHZ_OSCOUT_INVERT 0x000F // External 32MHz crystal, output inverted 
+
+// Define devices
+#define HOST_DEV_UNO            0x00
+#define HOST_DEV_DUEMILANOVE    0x01
+#define HOST_DEV_MEGA1280       0x02
+#define HOST_DEV_MEGA2560       0x03
+#define HOST_DEV_LEONARDO       0x04
+#define HOST_DEV_DUE            0x05
+
 #endif
